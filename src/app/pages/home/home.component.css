@@ -1,6 +1,7 @@
 .container__articles {
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
 }
@@ -9,4 +10,10 @@ header {
   margin-top: 15px;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 1139px){
+  .articles_others {
+    margin-top: -150px;
+  }
 }
