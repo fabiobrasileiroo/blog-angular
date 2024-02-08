@@ -14,6 +14,8 @@ export class SmallCardComponent implements OnInit {
   photoCover:string = 'https://infopunch.files.wordpress.com/2013/07/linux_pingwin_041.jpg?w=640'
   @Input()
   cardTitle:string = 'Linux achar windows um comedia'
+  @Input()
+  Id:string = '0'
   constructor() {
     // interface Card {
     //   img: string;
